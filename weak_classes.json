@@ -1,0 +1,189 @@
+{
+  "overall_test_accuracy": 0.8425178147268408,
+  "per_class_accuracy": {
+    "Speed limit (20km/h)": {
+      "accuracy": 0.5333333333333333,
+      "n_test": 60
+    },
+    "Speed limit (30km/h)": {
+      "accuracy": 0.8805555555555555,
+      "n_test": 720
+    },
+    "Speed limit (50km/h)": {
+      "accuracy": 0.892,
+      "n_test": 750
+    },
+    "Speed limit (60km/h)": {
+      "accuracy": 0.8955555555555555,
+      "n_test": 450
+    },
+    "Speed limit (70km/h)": {
+      "accuracy": 0.8924242424242425,
+      "n_test": 660
+    },
+    "Speed limit (80km/h)": {
+      "accuracy": 0.7587301587301587,
+      "n_test": 630
+    },
+    "End of speed limit (80km/h)": {
+      "accuracy": 0.8866666666666667,
+      "n_test": 150
+    },
+    "Speed limit (100km/h)": {
+      "accuracy": 0.8244444444444444,
+      "n_test": 450
+    },
+    "Speed limit (120km/h)": {
+      "accuracy": 0.7911111111111111,
+      "n_test": 450
+    },
+    "No passing": {
+      "accuracy": 0.8583333333333333,
+      "n_test": 480
+    },
+    "No passing for vehicles over 3.5 metric tons": {
+      "accuracy": 0.9303030303030303,
+      "n_test": 660
+    },
+    "Right-of-way at the next intersection": {
+      "accuracy": 0.8714285714285714,
+      "n_test": 420
+    },
+    "Priority road": {
+      "accuracy": 0.8942028985507247,
+      "n_test": 690
+    },
+    "Yield": {
+      "accuracy": 0.9833333333333333,
+      "n_test": 720
+    },
+    "Stop": {
+      "accuracy": 0.8592592592592593,
+      "n_test": 270
+    },
+    "No vehicles": {
+      "accuracy": 0.9523809523809523,
+      "n_test": 210
+    },
+    "Vehicles over 3.5 metric tons prohibited": {
+      "accuracy": 0.78,
+      "n_test": 150
+    },
+    "No entry": {
+      "accuracy": 0.8277777777777777,
+      "n_test": 360
+    },
+    "General caution": {
+      "accuracy": 0.6948717948717948,
+      "n_test": 390
+    },
+    "Dangerous curve to the left": {
+      "accuracy": 1.0,
+      "n_test": 60
+    },
+    "Dangerous curve to the right": {
+      "accuracy": 0.9444444444444444,
+      "n_test": 90
+    },
+    "Double curve": {
+      "accuracy": 0.4888888888888889,
+      "n_test": 90
+    },
+    "Bumpy road": {
+      "accuracy": 0.9083333333333333,
+      "n_test": 120
+    },
+    "Slippery road": {
+      "accuracy": 0.6866666666666666,
+      "n_test": 150
+    },
+    "Road narrows on the right": {
+      "accuracy": 0.3888888888888889,
+      "n_test": 90
+    },
+    "Road work": {
+      "accuracy": 0.81875,
+      "n_test": 480
+    },
+    "Traffic signals": {
+      "accuracy": 0.8222222222222222,
+      "n_test": 180
+    },
+    "Pedestrians": {
+      "accuracy": 0.48333333333333334,
+      "n_test": 60
+    },
+    "Children crossing": {
+      "accuracy": 0.5866666666666667,
+      "n_test": 150
+    },
+    "Bicycles crossing": {
+      "accuracy": 0.8444444444444444,
+      "n_test": 90
+    },
+    "Beware of ice/snow": {
+      "accuracy": 0.14,
+      "n_test": 150
+    },
+    "Wild animals crossing": {
+      "accuracy": 0.7481481481481481,
+      "n_test": 270
+    },
+    "End of all speed and passing limits": {
+      "accuracy": 1.0,
+      "n_test": 60
+    },
+    "Turn right ahead": {
+      "accuracy": 0.9809523809523809,
+      "n_test": 210
+    },
+    "Turn left ahead": {
+      "accuracy": 0.7916666666666666,
+      "n_test": 120
+    },
+    "Ahead only": {
+      "accuracy": 0.9435897435897436,
+      "n_test": 390
+    },
+    "Go straight or right": {
+      "accuracy": 0.825,
+      "n_test": 120
+    },
+    "Go straight or left": {
+      "accuracy": 0.8,
+      "n_test": 60
+    },
+    "Keep right": {
+      "accuracy": 0.9739130434782609,
+      "n_test": 690
+    },
+    "Keep left": {
+      "accuracy": 0.6666666666666666,
+      "n_test": 90
+    },
+    "Roundabout mandatory": {
+      "accuracy": 0.9444444444444444,
+      "n_test": 90
+    },
+    "End of no passing": {
+      "accuracy": 0.25,
+      "n_test": 60
+    },
+    "End of no passing by vehicles over 3.5 metric tons": {
+      "accuracy": 0.4444444444444444,
+      "n_test": 90
+    }
+  },
+  "weakest_10_classes": [
+    "Beware of ice/snow",
+    "End of no passing",
+    "Road narrows on the right",
+    "End of no passing by vehicles over 3.5 metric tons",
+    "Pedestrians",
+    "Double curve",
+    "Speed limit (20km/h)",
+    "Children crossing",
+    "Keep left",
+    "Slippery road"
+  ]
+}
